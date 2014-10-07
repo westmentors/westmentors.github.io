@@ -19,19 +19,16 @@ header, footer {
   background-color: #6a67b1;
   color: #fff;
   font-weight: 400;
-  > section {
-    padding: 20px;
+  padding: 20px;
+  > * {
+    max-width: 580px;
     margin: 0 auto;
-    max-width: 700px;
   }
 }
 
 article {
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 700px;
   > section {
-    padding: 60px;
+    padding: 40px;
     border-width: 6px 0;
     border-style: double;
     border-color: transparent;
@@ -42,6 +39,11 @@ article {
     &.purple {
       border-color: #6a67b1;
       background-color: #d8dafe;
+    }
+    * {
+      max-width: 580px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
@@ -65,7 +67,7 @@ h2 {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 700px) {
   body {
     font-size: 20px;
   }
