@@ -35,7 +35,7 @@ This pilot will be open to early through mid-career women from the Bay Area in t
 </section>
 
 <section markdown='1'>
-## How can I apply?
+## How can I get involved?
 
 <form accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://westmentors.wufoo.com/forms/m11qd5ab0jmbd4v/#public" markdown="1">
 
