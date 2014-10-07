@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  color: #000;
+  color: #333;
   font-family: 'Open Sans', arial;
   font-size: 16px;
   font-weight: 300;
@@ -40,7 +40,7 @@ article {
       border-color: #6a67b1;
       background-color: #d8dafe;
     }
-    * {
+    > * {
       max-width: 580px;
       margin-left: auto;
       margin-right: auto;
@@ -65,6 +65,45 @@ h2 {
   height: 80px;
   display: block;
   margin: 0 auto;
+}
+
+form {
+  margin-bottom: 100px;
+  > * {
+    width: 80%;
+    margin: 0 auto;
+  }
+  > section {
+    text-align:left;
+    input, textarea {
+      font-family: 'Open Sans', arial;
+      font-size: 20px;
+      font-weight: 300;
+      border: 1px solid #ccc;
+      padding: 4px;
+    }
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    label:first-child {
+      margin-top: 20px;
+      font-weight: 400;
+      display:block;
+    }
+    #saveForm {
+      margin-top: 20px;
+      padding: 10px 20px;
+      display: block;
+      background: #6a67b1;
+      color: #fff;
+      float: right;
+
+    }
+    &.hidden {
+      display:none;
+    }
+  }
 }
 
 @media screen and (min-width: 700px) {
