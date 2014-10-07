@@ -2,9 +2,15 @@
 title: "WEST: Women Entering and Staying in Tech"
 ---
 
-<section markdown='1'>
+<section markdown='1' class='purpletop logos'>
 ## What is WEST?
-Our goal is to enable 1:1 mentorship for women in the early to middle stages of their technology careers. We believe that by providing more direct support, advocacy, and community development, we can help more women build rewarding careers in technology.
+WEST is an industry program for women in technology.
+
+[<img src="/static/logos/box.svg" alt="Box" title="Box">](http://box.com/)
+[<img src="/static/logos/facebook.svg" alt="Facebook" title="Facebook">](http://facebook.com/)
+[<img src="/static/logos/pinterest.svg" alt="Pinterest" title="Pinterest">](http://pinterest.com/)
+
+Our goal is to enable 1:1 mentorship for women in the early- to middle-stages of their technology careers. We believe that by providing more direct support, advocacy, and community development, we can help more women build rewarding careers in technology.
 </section>
 
 <section markdown='1' class='green'>
@@ -37,8 +43,8 @@ More details to come on the application process and timing to come. If you'd lik
 
 <section>
 <label for="Field6" >Name:</label>
-<input id="Field6" name="Field6" size="17"/>
-<input id="Field7" name="Field7" size="17" />
+<input id="Field6" name="Field6" size="17" placeholder="First"/>
+<input id="Field7" name="Field7" size="17" placeholder="Last"/>
 </section>
 
 <section>

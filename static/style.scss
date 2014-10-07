@@ -28,7 +28,7 @@ header, footer {
 
 article {
   > section {
-    padding: 40px;
+    padding: 40px 20px;
     border-width: 6px 0;
     border-style: double;
     border-color: transparent;
@@ -40,10 +40,24 @@ article {
       border-color: #6a67b1;
       background-color: #d8dafe;
     }
+    &.purpletop {
+      border-color: #6a67b1;
+      border-bottom: none;
+    }
     > * {
       max-width: 580px;
       margin-left: auto;
       margin-right: auto;
+    }
+    &.logos {
+      img {
+        height: 30px;
+        max-width: 30%;
+        margin: 20px;
+        display: inline;
+        vertical-align: middle;
+        transition: height 0.5s;
+      }
     }
   }
 }
@@ -61,10 +75,10 @@ h2 {
 }
 
 #logo {
-  width: 240px;
-  height: 80px;
+  width: 180px;
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
+  transition: width 0.5s;
 }
 
 form {
@@ -109,5 +123,11 @@ form {
 @media screen and (min-width: 700px) {
   body {
     font-size: 20px;
+  }
+  #logo {
+    width: 240px;
+  }
+  article > section.logos img {
+    height: 40px;
   }
 }
