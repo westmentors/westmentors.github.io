@@ -19,30 +19,43 @@ header, footer {
   background-color: #6a67b1;
   color: #fff;
   font-weight: 400;
+  > section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 700px;
+  }
 }
 
-section {
+article {
   padding: 20px;
   margin: 0 auto;
   max-width: 700px;
+  > section {
+    padding: 60px;
+    border-width: 6px 0;
+    border-style: double;
+    border-color: transparent;
+    &.green {
+      border-color: #71c37d;
+      background-color: #ccfeea;
+    }
+    &.purple {
+      border-color: #6a67b1;
+      background-color: #d8dafe;
+    }
+  }
 }
 
-h1, h2, h3, b, strong {
+h1, h2 {
   font-weight: 400;
 }
 
 h1 {
   font-size: 1.5em;
-  margin-top: 0;
 }
 
 h2 {
   font-size: 1.3em;
-  margin-top: 2em;;
-}
-
-h3 {
-  font-size: 1.1em;
 }
 
 #logo {
