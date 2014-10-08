@@ -4,7 +4,7 @@ title: "WEST: Women Entering and Staying in Tech"
 
 <section markdown='1' class='purpletop logos'>
 ## What is WEST?
-WEST is an industry program for women in technology.
+WEST is a mentorship program for women in technology.
 
 [<img src="/static/logos/box.svg" alt="Box" title="Box">](http://box.com/)
 [<img src="/static/logos/facebook.svg" alt="Facebook" title="Facebook">](http://facebook.com/)
