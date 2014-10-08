@@ -17,6 +17,8 @@ body {
 
 header, footer {
   background-color: #6a67b1;
+  background-image: url(/static/waves.jpg);
+  background-size: cover;
   color: #fff;
   font-weight: 400;
   padding: 20px;
@@ -28,9 +30,9 @@ header, footer {
 
 article {
   > section {
-    padding: 40px 20px;
-    border-width: 6px 0;
-    border-style: double;
+    padding: 40px 20px 60px;
+    border-width: 1px 0;
+    border-style: solid;
     border-color: transparent;
     &.green {
       border-color: #71c37d;
@@ -64,14 +66,15 @@ article {
 
 h1, h2 {
   font-weight: 400;
+  color: #666;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 #logo {
@@ -107,12 +110,12 @@ form {
     }
     #saveForm {
       margin-top: 20px;
-      padding: 10px 20px;
+      padding: 10px 40px;
       display: block;
       background: #6a67b1;
       color: #fff;
       float: right;
-
+      border: 0;
     }
     &.hidden {
       display:none;
