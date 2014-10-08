@@ -59,6 +59,7 @@ article {
         display: inline;
         vertical-align: middle;
         transition: height 0.5s;
+        border: 0;
       }
     }
   }
@@ -96,8 +97,10 @@ form {
       font-family: 'Open Sans', arial;
       font-size: 20px;
       font-weight: 300;
-      border: 1px solid #ccc;
       padding: 4px;
+    }
+    input[type=radio] {
+      border: none;
     }
     textarea {
       width: 100%;
